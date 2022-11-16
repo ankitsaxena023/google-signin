@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="./style.css">
+    <title>Google Signin</title>
+    <meta name="google-signin-client_id" content="963446616360-qvkduj9fa0jtvl7a2h053gb0vmem1n6t.apps.googleusercontent.com">
+    
+</head>
+<body>
+    <div id="my-signin2"></div>
+    <div class="container">
+        <img src="" alt="profile" class="img">
+        <div class="name"></div>
+        <br>
+        <label>ID: </label>
+        <div class="id"></div>
+        <br>
+        <label>Email: </label>
+        <div class="email"></div>
+        <button onclick="signOut()">Sign Out</button>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton"></script>
+</body>
+</html>
